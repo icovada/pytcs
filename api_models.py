@@ -8,6 +8,7 @@ from pydantic import BaseModel, RootModel, Field, model_validator, field_validat
 class ZoneStatusEnum(str, Enum):
     OPEN = "OPEN"
     CLOSED = "CLOSED"
+    ISOLATED = "ISOLATED"
     UNKNOWN = "UNKNOWN"
 
 
